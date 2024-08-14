@@ -30,3 +30,7 @@ extend-ignore-identifiers-re = [
 [default.extend-identifiers]
 _pn = "_pn"
 ein = "ein"
+# Don't correct 'DELTA'
+DELTA = "DELTA"
+# Don't correct 'flate'
+flate = "flate"
