@@ -11,3 +11,5 @@ jobs:
 
     - name: Check spelling of rpo
       uses: crate-ci/typos@master
+      with:
+        config: ../../../_typos.toml
