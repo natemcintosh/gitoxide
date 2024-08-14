@@ -4,7 +4,7 @@ And the one crate that has been a huge thorn in my eye was `git-config`, so I th
 
 ## Pushing `git-config` towards 1.0
 
-While Svetlin was already making valuable contributions to add support for handling `include.path` and conditional includes via `includeIf`, the crate lacked behind in 'style', naming, and code structure, while being generally quite unknown to me which I considered technical debt. When taking out the loan by merging without proper review, I was quite aware one day it had to be payed back. 
+While Svetlin was already making valuable contributions to add support for handling `include.path` and conditional includes via `includeIf`, the crate lacked behind in 'style', naming, and code structure, while being generally quite unknown to me which I considered technical debt. When taking out the loan by merging without proper review, I was quite aware one day it had to be paid back. 
 So I started combing through each line of code to not only make it similar in structure to the ones in its sibling crates, but also to validate their functionality. All 4500 lines!
 
 ###### testing 
